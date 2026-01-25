@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+import { Button } from '@/components/button'
+
+function Example() {
+  return <Button href="/get-started">Get started</Button>
+}
+
+.bg-box{
+    background-image: url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523);
+    background-size: cover;
+    width: 330px;
+    height : 600px;
+}
+
