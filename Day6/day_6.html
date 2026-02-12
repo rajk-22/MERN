@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="flex justify-center">
+    <div class="h-[400px] w-[400px] bg-blue-300 rounded-lg">
+         <h1 class="text-[white] font-bold text-xl text-center">Login Form</h1>
+         <form id="loginForm" class="flex flex-col py-4 px-4">
+            <label for="email" name="Email">Email</label>
+            <input type="text" placeholder="Enter your email" required class="border rounded-lg"/>
+            <label for="password" name="Password" class="pt-8">Password</label>
+            <input type="password" placeholder="Enter your password" required class="border rounded-lg"/>
+           <div class="flex justify-center pt-8">
+             <button id="submit" class="w-[80px] h-[40px] border rounded-lg">Submit</button>
+           </div> 
+         </form>
+    </div>
+</body>
+<script src="day_6.js"></script>
+</html>
